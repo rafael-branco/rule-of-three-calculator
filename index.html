@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="/javascript/script.js"></script>
+    <title>Rule of 3 Calculator</title>
+</head>
+<body>
+    <header><h1>Rule of 3 Calculator</h1></header>
+    <main>
+        <div class="calculator-box">
+            <div class="first-row">
+                <input class="white-box no-margin-right" type="number" id="box-3" value="1">
+                <div class="line"></div>
+                <input class="white-box no-margin-left" type="number" id="box-3" value="1">
+            </div>
+            <div class="second-row">
+                <input class="white-box no-margin-right" type="number" id="box-3" value="1">
+                <div class="line"></div>
+                <input class="blue-box no-margin-left" type="number" id="result" value="1" disabled>
+            </div>
+        </div>
+        <div class="button-box">
+            <button id="calculate-button" onclick="calculate()">Calculate</button>
+            <button id="clear-button">Clear</button>
+        </div>
+    </main>
+
+</body>
+</html>

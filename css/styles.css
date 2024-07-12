@@ -1,0 +1,152 @@
+* {
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #3657CC;
+    padding: 15px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.calculator-box{
+    margin-top: 50px;
+    background-color: #3657CC;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.calculator-box > div{
+    display: flex;
+    align-items: center;
+}
+
+.calculator-box > div > input{
+    border: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.calculator-box > div > input{
+    margin: 10px;
+    width: 120px;
+}
+
+.white-box, .blue-box{
+    border-radius: 20px;
+    height: 50px;
+}
+
+.white-box{
+    background-color: white;
+}
+
+.blue-box{
+    background-color: #233C98;
+    
+}
+
+input.white-box {
+    color: #3657CC;
+}
+
+input.blue-box {
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.line{
+    width: 70px;
+    height: 2px;
+    background-color: white;
+}
+
+.no-margin-left{
+    margin-left: 0 !important;
+}
+
+.no-margin-right{
+    margin-right: 0 !important;
+}
+
+.button-box{
+    margin-top: 50px;
+}
+
+.button-box button{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+#calculate-button {
+    border: none;
+    background-color: #3657CC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#calculate-button:hover {
+    background-color: #2c47a8;
+}
+
+#calculate-button:active {
+    background-color: #24378a;
+    transform: scale(0.95);
+}
+
+#clear-button {
+    background-color: white;
+    color: #3657CC;
+    border: 2px solid #3657CC;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+#clear-button:hover {
+    background-color: #3657CC;
+    color: white;
+}
+
+#clear-button:active {
+    background-color: #24378a;
+    color: white;
+    transform: scale(0.95);
+}
