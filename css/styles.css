@@ -57,6 +57,11 @@ main{
 
 .white-box{
     background-color: white;
+    
+}
+
+.white-box:focus{
+    outline: none;
 }
 
 .blue-box{
