@@ -20,16 +20,18 @@
     <main>
         <div class="calculator-box">
             <div class="first-row">
-                <input class="white-box no-margin-right" type="number" id="box-1" value="1">
+                <input class="white-box no-margin-right" type="number" id="box-1">
                 <div class="line"></div>
-                <input class="white-box no-margin-left" type="number" id="box-2" value="1">
+                <input class="white-box no-margin-left" type="number" id="box-2">
             </div>
             <div class="second-row">
-                <input class="white-box no-margin-right" type="number" id="box-3" value="1">
+                <input class="white-box no-margin-right" type="number" id="box-3">
                 <div class="line"></div>
-                <input class="blue-box no-margin-left" type="number" id="result" value="1" disabled>
+                <input class="blue-box no-margin-left" type="number" id="result" disabled>
             </div>
+            <div id="message"></div>
         </div>
+        
         <div class="button-box">
             <button onclick="calculate()" id="calculate-button">Calculate</button>
             <button onclick="clearFields()" id="clear-button">Clear</button>

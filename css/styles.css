@@ -32,6 +32,8 @@ main{
     background-color: #3657CC;
     border-radius: 20px;
     padding: 20px;
+    position: relative;
+    
 }
 
 .calculator-box > div{
@@ -155,3 +157,13 @@ input[type=number] {
     color: white;
     transform: scale(0.95);
 }
+
+#message{
+    margin: 10px 0;
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
