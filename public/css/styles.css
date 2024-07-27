@@ -167,3 +167,8 @@ input[type=number] {
     transform: translate(-50%, -50%);
 }
 
+.text-content{
+    margin-top: 20px;
+    padding: 40px;
+}
+
