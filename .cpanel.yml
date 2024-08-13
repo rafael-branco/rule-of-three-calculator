@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/rbproj37/public_html/
+    - /bin/cp -R repositories/rule-of-three-calculator $DEPLOYPATH
